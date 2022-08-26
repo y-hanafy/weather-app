@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.daily-item {
+  background-color: #fbfaf9;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  height: auto;
+  margin: 5px;
+  display: flex;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.daily-item-left {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  font-weight: 600;
+}
+
+.day {
+  cursor: pointer;
+  color: rgb(100, 100, 100); 
+  min-width: 75px;
+}
+
+.min-max {
+  cursor: pointer;
+  color: #212121;
+  min-width: 65px;
+  font-size: 18px;
+}
+
+.icon-small {
+  cursor: pointer;
+  height: 40px;
+  padding-right: 5px;
+}
+
+.icon-arrow {
+  cursor: pointer;
+  height: 40px;
+}
+
+.description {
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+.daily-item-right {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  font-weight: 600;
+}
+
+.daily-details-grid {
+  margin: 5px;
+  background-color: #fbfaf9;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;  
+  overflow: auto;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  border-right: 1px solid lightgray;
+}
+
+.daily-details-grid-item:last-child {
+  border-right: none;
+}
+
+.daily-details-grid-item label:first-child {
+  color: #757575;
+  padding-bottom: 8px;
+  white-space: pre;
+}
+
+.daily-details-grid-item label:last-child {
+  font-weight: 700;
+  color: #212121;
+}
